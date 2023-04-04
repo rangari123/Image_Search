@@ -1,0 +1,179 @@
+/*  .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: hsl(30, 38%, 92%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* margin-bottom: 50px; */
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: row;
+
+}
+
+.image {
+
+  height: 30rem;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.mobileimage {
+  display: none;
+  height: 30rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.secondcontainer {
+  background-color: #fff;
+  height: 30rem;
+  width: 20rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.perfume {
+  margin: 1rem;
+  padding: 2px;
+  letter-spacing: 4px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  margin: 1rem;
+  padding: 2px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 40px;
+  word-spacing: 4px;
+  line-height: 1;
+}
+
+.subtitles {
+  margin: 1rem;
+  padding: 2px;
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+  font-size: 14px;
+  /* word-spacing: 4px; */
+  line-height: 2;
+  color: hsl(228, 12%, 48%);
+}
+
+.price {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  display: inline-flex;
+ 
+}
+
+.prices {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.pricescut {
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 1rem;
+  padding-left: 2rem;
+
+  color: hsl(228, 12%, 48%);
+  text-decoration-line: line-through;
+}
+
+.carts {
+  margin: 0.5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+}
+
+.addtocart {
+  color: hsl(0, 0%, 100%);
+
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 1rem;
+
+}
+i{
+font-size: 1rem;
+padding-right: 1rem;
+
+}
+
+
+.carts:hover {
+  background-color: hsl(159, 76%, 12%);
+}
+
+
+
+
+
+@media (max-width:600px) {
+  main {
+    height: 100vh;
+  }
+
+  .main-container {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    flex-direction: column;
+    
+         
+  }
+
+ 
+.image{
+  display: none;
+}
+.mobileimage {
+  display: inline-flex; 
+  height: 100%;
+  width: 66vw;
+
+}
+.secondcontainer{
+margin-top: -0.3rem;  
+/* in order to fill  gaps between image and  second container we use negative margin property  */
+  background-color: #fff;
+  height: 60%;
+  width: 66vw;
+}
+
+}

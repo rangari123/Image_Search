@@ -1,0 +1,136 @@
+/* Add CSS here */
+
+body {
+  background-color: #FEF5EC;
+  margin: auto auto;
+  height: 100vh;
+  overflow: hidden;
+  /* display: flex; */
+  flex-direction: column;
+}
+.container {
+  margin: 100px 0 0 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 620px;
+  margin: auto auto;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom:20px ;
+  margin-top: 70px;
+  /* //  background-color: rgb(189, 243, 243); */
+}
+.heading {
+  color: #a26bf3;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  /* word-spacing: 3px; */
+}
+.subheading {
+  font-size: 1rem;
+  font-family: "Poppins" serif;
+  margin-top: 10px;
+  color: 91908F;
+  word-spacing: 2px;
+}
+.input-box {
+  background-color: #FFFFFF;
+  padding: 20px 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 620px;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start;
+   align-items: flex-start; */
+}
+
+.box {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.input-box .recommend {
+  font-size: 1rem;
+  font-family: "Poppins";
+  margin-top: 10px;
+  color: #A3A3A3;
+}
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.numbers .one {
+  margin-top: 0;
+  height: 10px;
+  width: 10px;
+  text-align: center;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 10px;
+  font-size: 1rem;
+  /* font-family: "Cairo"; */
+  font-family: 'Inter';
+  margin-top: 5px;
+  color: #9E9E9E;
+  background-color: #F7F7F7;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.one:hover {
+  font-weight: bold;
+  background-color: ED8001;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.improve{
+    color: rgb(167, 164, 164);
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  
+  margin-top: 30px;
+}
+input{
+    width:90%;
+     height: 100px;
+     border-top: 2px solid rgb(236, 222, 222);
+     border-left:2px solid rgb(236, 222, 222) ;
+     border-bottom: 2px solid rgb(243, 236, 236);
+       border-right: 2px solid rgb(248, 241, 241);
+    text-align: left;
+    outline: none;
+}
+.inp{
+    font-size: 1rem;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  
+}
+input::placeholder{
+    margin: 30px 10px;
+    color: #dad6d6;
+}
+.submit{
+    text-align: center;
+    color: orange;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: "poppins";
+}

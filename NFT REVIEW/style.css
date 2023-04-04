@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+
+}
+main {
+  display: flex;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+ 
+  flex-direction: column;
+  box-shadow: 0 0 15px 4px rgba(28, 23, 23, 0.2);
+  color: white;
+  border-radius: 10px;
+ 
+  
+}
+
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+cursor: pointer;
+}
+img:hover{
+  background-image: url('<i class="fa-solid fa-eye"></i>');
+}
+ 
+
+h2{
+  margin-top: 1rem;
+  margin-left: .2rem;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+
+}
+h2:hover{
+  color: hsl(178, 100%, 50%);
+  
+}
+p{
+    color: hsl(216, 74%, 71%);
+    margin-top: 1rem;
+    margin-left: .2rem;
+    line-height: 1.5;
+   font-size: 18px;
+    opacity: 80%;
+ font-family: 'Outfit', sans-serif;
+}
+.middle{
+    display: flex;
+
+}
+i{  
+  color: hsl(178, 100%, 50%);
+  margin-right: 10px;
+font-size: 20px;
+}
+strong{
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 200;
+}
+.clock1{
+  margin-left: 5rem;
+  color: hsl(215, 51%, 70%);
+}
+.paragraph{
+color: hsl(215, 51%, 70%);
+}
+hr{
+  border-top: 1px solid rgb(206, 203, 216);
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  margin-top: 15px;
+ margin-bottom: 15px;
+ opacity: 20%;
+}
+.footer{
+  display: flex;
+}
+.image2{
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+border-radius: 20px;
+}
+article{
+  margin: 10px  30px;
+  color: #fff;
+  font-size: 18px;
+  word-spacing: 2px;
+  cursor: pointer;
+}
+article:hover{
+  color:hsl(178, 100%, 50%) ;
+}
+span{
+  color: rgb(171, 185, 229);
+  font-size: 18px;
+font-weight: 200;
+}
+.attribution{
+  color: rgb(246, 216, 216);
+  text-align: center;
+  font-size: 10px;
+
+}
