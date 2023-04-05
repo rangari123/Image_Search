@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1e1d2e;
+  overflow: hidden;
+}
+.container {
+  background-color: #191829;
+  margin: 150px auto;
+  width: 350px;
+  height: 100vh;
+  border-radius: 10px;
+  position: relative;
+  border-radius: 30px;
+}
+.subContainer {
+  background-color: #242336;
+  margin: -40px auto;
+  width: 290px;
+  height: 90%;
+  border-radius: 10px;
+  position: absolute;
+  top: -70px;
+  right: 30px;
+
+  padding: 10px;
+}
+.firstbox {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+}
+.head {
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+label {
+  cursor: pointer;
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  color: #ffffff;
+  font-family: "Poppins";
+}
+input[type="checkbox"] {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background-color: #242336;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  border: 2px solid #3c3a5b;
+  margin-bottom: 10px;
+}
+input[type="checkbox"]::before {
+  position: absolute;
+  content: "\2713";
+  font-size: 25px;
+  line-height: 15px;
+  border-radius: 4px;
+  color: #afabed;
+  transform: scale(0);
+}
+input[type="checkbox"]:checked {
+  background-color: rgb(29, 3, 90);
+}
+input[type="checkbox"]:checked:before {
+  transform: scale(1);
+  cursor: pointer;
+}
+.learnMore {
+  background-color: #191829;
+  width: 100%;
+  text-align: left;
+  margin: 10px auto 20px auto;
+
+  line-height: 15px;
+  color: #fff;
+
+  border-radius: 4px;
+  font-family: "Poppins";
+}
+.learn {
+  font-size: 0.6rem;
+  padding: 20px;
+}
+span{
+  font-size: 11px;
+}
+.sec-box{
+  margin: 20px;
+  
+}
+.format{
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+input[type="radio"] {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background-color: #242336;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  border: 2px solid #3c3a5b;
+  margin-bottom: 10px;
+}
+input[type="radio"]::before {
+  position: absolute;
+  content: "\25CE";
+  font-size: 25px;
+  line-height: 15px;
+  border-radius: 4px;
+  color: #f2f2f7;
+  transform: scale(0);
+}
+input[type="radio"]:hover{
+appearance: auto;
+cursor: pointer;
+}
+.btn{
+  background-color: #8e76f9;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px;
+}
+button{
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+.sa{
+  text-align: center;
+ color: #fff;
+ font-weight: 500;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px;
+}

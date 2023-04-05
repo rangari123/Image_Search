@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Email-Setting</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="subContainer">
+        <div class="firstbox">
+          <p class="head">Get email upates when:</p>
+          <div class="optn">
+           
+              <!-- owner -->
+              <input
+                type="checkbox"
+                class="inp"
+                id="owner"
+                name="owner"
+                value="owner"
+              />
+              <label for="owner" class="own"> You're the owner</label><br />
+              <!-- assign -->
+              <input
+                class="inp"
+                type="checkbox"
+                id="assign"
+                name="assign"
+                value="assign"
+              />
+              <label class="own" for="assign">You're the assignee</label><br />
+              <!-- reporter -->
+              <input
+                class="inp"
+                type="checkbox"
+                id="reporter"
+                name="reporter"
+                value="reporter"
+              />
+              <label class="own" for="reporter"> You're the reporter</label><br />
+              <!-- mention -->
+              <input
+                class="inp"
+                type="checkbox"
+                id="mention"
+                name="mention"
+                value="mention"
+              />
+              <label class="own" for="mention">Someone mention you</label><br />
+              <!-- asgining -->
+              <input
+                class="inp"
+                type="checkbox"
+                id="asgining"
+                name="asgining"
+                value="asgining"
+              />
+              <label class="own" for="asgining">Someone is assigning you</label><br /><br />
+            
+          </div>
+        </div>
+        <!-- link -->
+        <div class="learnMore">
+          <p class="learn">
+            You may also receive other email notifications your admin configred
+            <span><a href="#">Learn More</a></span>
+          </p>
+        </div>
+        <!-- second box -->
+        <div class="sec-box">
+          <p class="format">Email Format</p>
+          <div class="inputt">
+            <div class="f">
+              <input type="radio" name="" id="" />
+              <label id = "ff" for="">HTML</label>
+            </div>
+          <div class="s">
+            <input type="radio" name="" id="" />
+            <label for="">Text</label><br></br>
+          </div>
+         
+          </div>
+          
+           <div class="btn">
+            <button class="save">Save</button>
+           </div>
+        <p class="sa"></p>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
